@@ -2,10 +2,10 @@ meta:
   environment: python
   toolchain:
     name: pip
-    version: 3.12
+    version: 3.12.3
 build:
   requirementsPath: requirements.txt
 run:
-  scriptName: work_flow/manage.py
+  scriptName: manage.py
   persistenceMount: /data
   containerPort: 8000
